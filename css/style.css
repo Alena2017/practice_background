@@ -1,0 +1,139 @@
+@import url(reset/reset.css);
+.wrapper {
+    width: 1200px;
+    margin: 5px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 15px;
+}
+
+.bgd1 {
+    background: linear-gradient(to right bottom, rgb(236, 232, 157) 20%, rgb(0, 0, 255));
+}
+
+.bgd2 {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4ddb4+0,52b152+13,83c783+39,52b152+56,52b152+73,008a00+80,005700+94,002400+100,002400+100,002400+101 */
+    background: #b4ddb4;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #b4ddb4 0%, #52b152 13%, #83c783 39%, #52b152 56%, #52b152 73%, #008a00 80%, #005700 94%, #002400 100%, #002400 100%, #002400 101%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #b4ddb4 0%, #52b152 13%, #83c783 39%, #52b152 56%, #52b152 73%, #008a00 80%, #005700 94%, #002400 100%, #002400 100%, #002400 101%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #b4ddb4 0%, #52b152 13%, #83c783 39%, #52b152 56%, #52b152 73%, #008a00 80%, #005700 94%, #002400 100%, #002400 100%, #002400 101%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400', GradientType=0);
+    /* IE6-9 */
+}
+
+.bgd3 {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+36,ea2803+50,ff6600+64,c72200+89,c72200+89 */
+    background: #f3c5bd;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #f3c5bd 0%, #e86c57 36%, #ea2803 50%, #ff6600 64%, #c72200 89%, #c72200 89%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #f3c5bd 0%, #e86c57 36%, #ea2803 50%, #ff6600 64%, #c72200 89%, #c72200 89%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #f3c5bd 0%, #e86c57 36%, #ea2803 50%, #ff6600 64%, #c72200 89%, #c72200 89%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.picture {
+    min-height: 300px;
+    width: 300px;
+    outline: 1px double black;
+    margin: 50px;
+}
+
+.inl_b {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.p11 {
+    background: url('../img/images.jpg') 0 0/100% auto no-repeat;
+}
+
+.p12 {
+    background: url('../img/images\ \(1\).jpg') 0 0/auto 100% no-repeat;
+}
+
+.p13 {
+    background: url('../img/images\ \(2\).jpg') 0 0/100% 100% no-repeat;
+}
+
+.p21 {
+    background: url('../img/images\ \(3\).jpg') 0 0/contain no-repeat;
+}
+
+.p22 {
+    background: url('../img/images\ \(6\).jpg') 0 0/cover no-repeat;
+}
+
+.p23 {
+    background: url('../img/7.jpg') 0 0/300px 300px no-repeat;
+}
+
+.p31 {
+    background: url('') 0 0 no-repeat;
+}
+
+.p32 {
+    float: left;
+}
+
+.p33 {
+    background: url('../img/images\ 8.png') right /450px 400px no-repeat fixed;
+}
+
+.parent {
+    font-size: 0;
+}
+
+.children {
+    outline: 1px solid red;
+}
+
+.table_c {
+    height: 300px;
+    display: table-cell;
+}
+
+.spacing {
+    border-spacing: 75px 0;
+    border-collapse: separate;
+}
+
+.text_align {
+    text-align: center;
+}
+
+.float {
+    float: left;
+}
+
+.clearflex::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.height {
+    min-height: 300px;
+}
+
+.img {
+    background: url('../img/images.jpg') 0 0/100px 100px no-repeat, url('../img/images\ \(1\).jpg') 0 50%/100px 100px no-repeat, url('../img/images\ \(2\).jpg') 0 100%/100px 100px no-repeat, url('../img/images\ \(3\).jpg') top/100px 100px no-repeat, url('../img/images\ \(4\).jpg') center/100px 100px no-repeat, url('../img/images\ \(1\).jpg') bottom/100px 100px no-repeat, url('../img/images\ \(2\).jpg') 100% 0/100px 100px no-repeat, url('../img/images\ \(3\).jpg') right/100px 100px no-repeat, url('../img/images\ \(4\).jpg') bottom right/100px 100px no-repeat, linear-gradient(135deg, #cb60b3 15%, #c146a1 27%, #c146a1 32%, #c146a1 45%, #a80077 58%, #a80077 71%, #db36a4 100%);
+}
+
+ul {
+    margin: 15px 0 0 5px;
+}
+
+ul>li {
+    margin: 5px 0;
+    font-size: 25px;
+    padding: 0 0 0 30px;
+    background: url("../img/images\ \(2\).jpg")0 0/20px auto no-repeat;
+}
